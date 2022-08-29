@@ -1,11 +1,17 @@
 import './App.css';
-import { Button } from 'antd'
+import { Button, Layout } from 'antd'
+
+const { Header, Footer, Content } = Layout;
 
 function App() {
   return (
     <div className="App">
-      This is a test msg.
-      <Button type="primary">test btn for antd ui component lib</Button>
+      <Header>this is header</Header>
+      <Content>
+        This is a test msg.
+        <Button type="primary">test btn for antd ui component lib</Button>
+      </Content>
+      <Footer>this is footer</Footer>
     </div>
   );
 }
