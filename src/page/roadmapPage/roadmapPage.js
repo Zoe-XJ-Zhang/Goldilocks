@@ -1,16 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react';
-
-// import { Button, Layout } from 'antd'
+import roadmap from '../../data/roadmap-cut.png'
 
 const RoadmapPage = () => {
-
-    useEffect(() => {
-        console.log("??????!!!!!!!!!!")
-    }, []);
-
-
     return (
-        <div>this a roadmap page???????</div>
+        <div>
+            <img className="roadmapImg" src={roadmap} alt="roadmapImg" width="100%"></img>
+        </div>
     );
 };
 
