@@ -1,5 +1,8 @@
 import './App.css';
-import { Button, Layout } from 'antd'
+import { Layout } from 'antd'
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './page/homePage/homePage';
+import RoadmapPage from './page/roadmapPage/roadmapPage';
 
 const { Header, Footer, Content } = Layout;
 
@@ -8,8 +11,11 @@ function App() {
     <div className="App">
       <Header>this is header</Header>
       <Content>
-        This is a test msg.
-        <Button type="primary">test btn for antd ui component lib</Button>
+        <Routes>
+          <Route path='/*' element={<HomePage />}></Route>
+          <Route path='/home' element={<HomePage />}></Route>
+          <Route path='/roadmap' element={<RoadmapPage />}></Route>
+        </Routes>
       </Content>
       <Footer>this is footer</Footer>
     </div>
