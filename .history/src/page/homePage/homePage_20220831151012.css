@@ -1,0 +1,15 @@
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.signin{
+    position:absolute;
+
+z-index:2;
+
+margin:72px 0px 0px 99px;
+}
+.signup{
+    
+}
