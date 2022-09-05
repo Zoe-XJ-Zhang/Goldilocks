@@ -1,19 +1,14 @@
-.roadmapImg {
-    /* width: 100%; */
-    /* height: auto; */
-}
-
 .backgroundImg {
     position: relative;
     background-image: url('../../images/roadmap.png');
     background-size: 100% auto;
     background-position: center top;
     width: 100%;
-    height: 202vw;
+    height: 204vw;
 }
 
 .btn3 {
-    width: 18%;
+    width: 22%;
     height: 18%;
     position: absolute;
     top: 6%;
@@ -22,59 +17,49 @@
 }
 
 .btn5 {
-    width: 18%;
-    height: 17%;
+    width: 22%;
+    height: 18%;
     position: absolute;
     top: 6%;
-    left: 24%;
+    left: 28%;
     z-index: 199;
 }
 
 .btn8 {
-    width: 18%;
-    height: 17%;
+    width: 22%;
+    height: 18%;
     position: absolute;
     top: 6%;
-    left: 42%;
+    left: 50%;
     z-index: 199;
 }
 
 
 .btn11 {
-    width: 18%;
-    height: 17%;
+    width: 22%;
+    height: 18%;
     position: absolute;
     top: 6%;
-    left: 60%;
-    z-index: 199;
-}
-
-
-.btn14 {
-    width: 18%;
-    height: 17%;
-    position: absolute;
-    top: 6%;
-    left: 78%;
+    left: 72%;
     z-index: 199;
 }
 
 .showRoadmap5 {
     width: 100%;
     position: absolute;
-    top: 11.5%;
+    top: 12.5%;
 }
 
 .showRoadmap8 {
     width: 100%;
     position: absolute;
-    top: 11.5%;
+    top: 12.5%;
 }
 
 .showRoadmap11 {
     width: 100%;
     position: absolute;
-    top: 11.5%;
+    top: 12.5%;
 }
 
 

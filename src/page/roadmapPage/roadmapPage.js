@@ -1,11 +1,10 @@
 import React, { useContext, useEffect, useState } from 'react';
-import roadmap from '../../images/roadmap.png'
 import roadmap5 from '../../images/roadmap5.png'
 import roadmap8 from '../../images/roadmap8.png'
 import roadmap11 from '../../images/roadmap11.png'
 import './roadmapPage.css'
 
-const ageGroup = [3, 5, 8, 11, 14]
+const ageGroup = [3, 5, 8, 11]
 const RoadmapPage = () => {
     const [roadmapAge, setRoadmapAge] = useState(3);
     const changeRoadmapInfoByAge = (e) => {
