@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomePage from './page/homePage/homePage';
 import RoadmapPage from './page/roadmapPage/roadmapPage';
 import { menuList } from './data/headerMeun'
-import{AboutPage} from './page/aboutPage/aboutPage'
+import AboutPage from './page/aboutPage/aboutPage'
 const { Header, Footer, Content } = Layout;
 
 function App() {
