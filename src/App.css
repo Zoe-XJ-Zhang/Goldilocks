@@ -13,6 +13,11 @@
 .menu-wrap {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu-items {
+    display: flex;
 }
 
 .menu-item {
@@ -26,4 +31,8 @@
 
 .menu-item :hover {
     background-color: #F0CCDC;
+}
+
+.headerLogo {
+    max-width: 250px;
 }

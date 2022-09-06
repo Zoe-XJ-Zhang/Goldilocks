@@ -6,6 +6,7 @@ import HomePage from './page/homePage/homePage';
 import RoadmapPage from './page/roadmapPage/roadmapPage';
 import { menuList } from './data/headerMeun'
 import AboutPage from './page/aboutPage/aboutPage'
+import headerLogo from '../src/images/headerLogo.png'
 const { Header, Footer, Content } = Layout;
 
 function App() {
@@ -19,11 +20,14 @@ function App() {
     <div className="App">
       <Header>
         <div className='menu-wrap'>
-          {menuList.map((menu, index) => (
-            <div className='menu-item' key={menu.key} onClick={() => onMenuClick(menu)}>
-              <div className='menu-key'>{menu.key}</div>
-            </div>
-          ))}
+          <img className="headerLogo" src={headerLogo} alt="logo"></img>
+          <div className='menu-items'>
+            {menuList.map((menu, index) => (
+              <div className='menu-item' key={menu.key} onClick={() => onMenuClick(menu)}>
+                <div className='menu-key'>{menu.key}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </Header>
       <Content>
