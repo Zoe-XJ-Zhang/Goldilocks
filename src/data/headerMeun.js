@@ -17,7 +17,7 @@ export const menuList = [
     },
     {
         key: 'about us',
-        route: '/about-us',
+        route: '/about',
     },
     {
         key: 'My account',

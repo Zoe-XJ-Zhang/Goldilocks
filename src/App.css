@@ -1,26 +1,29 @@
 @import '~antd/dist/antd.css';
 
-.ant-layout-header{
+.ant-layout-header {
     background-color: #FFFFFF !important;
     font-family: Tahoma !important;
     font-weight: bold;
 }
 
-.menu-item :hover {
-    background-color: #F0CCDC;
-}
-
-.footer{
+.footer {
     text-align: center;
 }
 
-.menu-wrap{
+.menu-wrap {
     display: flex;
     flex-direction: row;
 }
 
-.menu-item{
-    min-width: 80px;
+.menu-item {
     color: black;
     text-align: center;
+}
+
+.menu-key {
+    padding: 0 15px;
+}
+
+.menu-item :hover {
+    background-color: #F0CCDC;
 }
